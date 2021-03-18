@@ -1,0 +1,50 @@
+body{
+    font-family: 'Playfair Display', serif;
+    margin: 0px;
+}
+div p{
+    text-align: justify;
+    font-weight: 20px;
+    color: darkslategray;
+}
+section{
+    background-image: url(images/header-bg.jpg);
+    background-size: 100% auto;
+    height: 600px;
+    width: 100%;
+    padding-top: 150px;
+    
+}
+.first-part{
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 1100px;
+    margin: auto;
+}
+.first-div{
+    width: 49%;
+    height: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+}
+.second-div{
+    height: 100%;
+    width: 49%;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    float: right;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: deeppink;
+    border-radius: 5px;
+    padding: 7px 25px;
+}
+a:hover{
+    background-color: dimgray;  
+}
