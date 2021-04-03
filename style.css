@@ -7,7 +7,7 @@ div p{
     font-weight: 20px;
     color: darkslategray;
 }
-section{
+.first-section{
     background-image: url(images/header-bg.jpg);
     background-size: 100% auto;
     height: 600px;
@@ -15,9 +15,24 @@ section{
     padding-top: 150px;
     
 }
+.second-section{
+    background-image: url(images/biography-bg.png);
+    background-size: 100% auto;
+    height: 600px;
+    width: 100%;
+    padding-top: 150px;
+}
+.third-section{
+
+    background-image: url(images/latest-work-bg.png);
+    background-size: 100% auto;
+    height: 600px;
+    width: 100%;
+    padding-top: 150px;
+}
 .first-part{
     background-repeat: no-repeat;
-    height: 450px;
+    height: 500px;
     width: 1100px;
     margin: auto;
 }
@@ -26,7 +41,7 @@ section{
     height: 100%;
     padding-left: 5px;
     padding-right: 5px;
-    display: inline-block;
+    float: left;
 }
 .second-div{
     height: 100%;
@@ -34,7 +49,6 @@ section{
     display: inline-block;
     margin-right: auto;
     margin-left: auto;
-    float: right;
 }
 .button{
     text-decoration: none;
@@ -44,6 +58,68 @@ section{
     background-color: deeppink;
     border-radius: 5px;
     padding: 7px 25px;
+}
+.second-part-first-div{
+    width: 49%;
+    height: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: right;
+}
+.second-part-second-div{
+    height: 100%;
+    width: 49%;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.third-section-main-div{
+    height: 350px;
+    width: 80%;
+    margin: auto;
+}
+.padding1{
+    margin-left: 30px;
+}
+.padding2{
+    margin-left: 30px;
+}
+.padding3{
+    margin-left: 30px;
+}
+
+
+#third-section-first-div{
+    width: 30%;
+    height: 100%;
+    float: left;
+    display: inline-block;
+
+}
+.last-part{
+    background-image: url(images/footer-bg.png);
+    background-size: 100% auto;
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+.footer-div{
+    height: 80px;
+    width: 30%;
+    margin: auto;
+    border-radius: 20px;
+    background-image: linear-gradient(45deg,hotPink,pink);
+    padding: 10px 15px 20px 15px;
+}
+.footer-div p{
+    text-align: center;
+    color: white;
+    font-weight: 50px;
+}
+a{
+    text-decoration: none;
+    
 }
 a:hover{
     background-color: dimgray;  
